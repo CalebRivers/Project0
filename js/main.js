@@ -125,4 +125,8 @@ let check = function () {
     counter = counter + 1;
     check();
   })
+
+  $(".refresh").on("click", function () {
+     window.location.reload()
+  })
 })
